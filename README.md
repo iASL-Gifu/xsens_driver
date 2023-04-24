@@ -7,3 +7,21 @@ sudo adduser $USER dialout
 ```
 
 where `$USER` is the username.
+
+## Environmental Settings
+please install pyserial
+
+```bash
+pip install pyserial
+```
+
+if you get numpy error, please this command
+
+```bash
+pip uninstall -y numpy && pip install --ignore-installed numpy==1.23.4
+```
+
+if you get transforms3d error, please this command
+```bash
+pip install tarnsforms3d
+```
